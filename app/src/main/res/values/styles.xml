@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryBlue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/primaryBlue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/backgroundWhite</item>
+        <item name="android:fontFamily">@font/manrope</item>
+    </style>
+
+
+    <style name="Easi.SplashTheme" parent="AppTheme">
+        <item name="android:colorBackground">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Easi.Button.Icon" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">0dp</item>
+        <item name="backgroundTint">?colorSurface</item>
+        <item name="iconTint">?colorOnSurface</item>
+        <item name="cornerRadius">@dimen/materialCornerRadius</item>
+    </style>
+
+    <dimen name="materialSpacing">16dp</dimen>
+    <dimen name="materialCornerRadius">8dp</dimen>
+
+</resources>

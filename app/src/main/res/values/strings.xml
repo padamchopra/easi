@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EASI</string>
+    <string name="splash_subtitle">Custom sign language interpretation</string>
+    <string name="app_fullform">Electronic assistant for sign interpretation</string>
+    <string name="microphone_hint">Press the microphone to start listening for speech.</string>
+</resources>
